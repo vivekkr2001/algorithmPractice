@@ -9,6 +9,12 @@ struct BinaryTreeNode{
     struct BinaryTreeNode *right;
 };
 
+struct Node{
+    char data;
+    struct Node *left;
+    struct Node *right;
+};
+
 struct BinaryTreeNode *insert(struct BinaryTreeNode *root, int data){
     if(root == NULL){
         root = (struct BinaryTreeNode *) malloc(sizeof(struct BinaryTreeNode));
