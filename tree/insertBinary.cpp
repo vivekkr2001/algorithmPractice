@@ -1,6 +1,8 @@
 #include<iostream>
 using namespace std;
-
+/*
+Code to insert tree node in binary tree structure.
+*/
 struct BinaryTreeNode{
     int data;
     struct BinaryTreeNode *left;
